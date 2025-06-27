@@ -3,7 +3,7 @@ import java.util.Scanner;public class menuOption extends Account{
 	public menuOption() {}
 	
 	public void checkPas() {
-		System.out.println("Enter your ID and Password: ");
+		System.out.println("Please, enter your ID and Password: ");
 		int d = scan.nextInt();
 		int pas = scan.nextInt();
 		int[] user1IdPas = {12345, 12345};
